@@ -111,7 +111,7 @@ $w->sendGetRequestLastSeen($dst);
 
 **Requesting profile picture / Obteniendo la imagen de perfil**
 
-```
+```php
 function onGetProfilePicture($from, $target, $type, $data)
 {
     if ($type == "preview") {
