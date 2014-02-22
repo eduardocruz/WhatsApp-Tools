@@ -68,6 +68,7 @@ $w->loginWithPassword($password);
 ```php
  $msgid = time()."-1";
 
+//The function retrive $seconds in UNIX timestamp, you can format that for a easier function :P
 function onGetRequestLastSeen($username, $msgid, $seconds)
 {
 	//echo "Received last seen seconds: '$seconds'";
